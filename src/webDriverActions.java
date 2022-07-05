@@ -24,6 +24,7 @@ public class webDriverActions {
 	private static final Duration TIMEOUT = Duration.ofSeconds(30);
 
 	public webDriverActions(){
+		//Please update the path of the driver
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\admin\\Documents\\driver\\chromedriver.exe");
 		webDriver = new ChromeDriver();
 	}
