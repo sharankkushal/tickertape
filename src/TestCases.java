@@ -2,6 +2,7 @@ import org.testng.annotations.Test;
 
 public class TestCases {
 
+	//Please update the path of the driver in webDriverActions class before running the test case
 
 	@Test
 	public void scenario1() {
